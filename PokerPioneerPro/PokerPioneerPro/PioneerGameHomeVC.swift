@@ -90,7 +90,7 @@ class PioneerGameHomeVC: UIViewController {
         particleScene = SKScene(size: viewMagic.bounds.size)
         particleScene.backgroundColor = .clear
         
-        let text = "Poker Pattern Match"
+        let text = "Card Shift Match"
         let fontName = "Chalkduster"
         let fontSize: CGFloat = 14
         let spacing: CGFloat = 3 // Adjust spacing between letters
@@ -130,33 +130,25 @@ class PioneerGameHomeVC: UIViewController {
         bvAdd.removeFromSuperview()
         
         let alert = UIAlertController(
-            title: "Poker Pattern Match",
+            title: "Card Shift Match",
             message: """
-            Poker Pattern Match is an engaging and strategic puzzle game that combines the thrill of poker with the challenge of pattern matching. Test your skills by arranging cards into the correct sequences and patterns before time runs out!
+            Card Shift Match
+
+            Card Shift Match is an engaging puzzle game that tests your pattern recognition and strategic planning abilities. Shift, move, and match cards to complete dynamic sequences before time runs out!
 
             How to Play
-                1.    Start the Game
-                •    Tap “Start Game” from the main menu.
-                •    The game will load, and you’ll enter a poker-based pattern challenge.
-                2.    Match the Patterns
-                •    Drag and arrange the cards to match the target pattern displayed at the top of the screen.
-                •    Select the correct card values and complete the required poker hands.
-                •    Complete the challenge within the time limit to advance.
+            • Start Game: Tap "Start Game" in the main menu to begin the challenge.
+            • Shift Cards: Drag the cards to arrange them into the correct sequence shown on the screen.
+            • Beat the Clock: Complete each level's pattern before time runs out to advance to tougher challenges.
 
             Game Features
+            • Dynamic Gameplay: Experience fast-paced challenges that require quick thinking and precise movements.
+            • Intuitive Mechanics: Simple controls make it easy to learn, but mastering each level requires skill and strategy.
+            • Engaging Puzzles: Each level offers a unique pattern-matching puzzle designed to sharpen your brain power.
+            • Stunning Visuals: Enjoy smooth animations and eye-catching effects as you move cards into place.
+            • Competitive Scoring: Earn points based on speed and accuracy, challenge yourself for the highest score.
 
-            🎯 Unique Poker Challenges – Solve puzzles based on real poker hands, from simple pairs to full houses and straights.
-            🔥 Fast-Paced Gameplay – Race against the clock to complete each pattern before time runs out!
-            💡 Helpful Hints – Stuck on a pattern? Use hints to guide your next move.
-            🏆 Scoring System – Earn points based on speed, accuracy, and pattern complexity.
-            🎨 Stunning Visuals – Enjoy smooth animations, glowing effects, and beautifully designed levels.
-
-            Why You’ll Love Poker Pattern Match
-
-            🧠 Boost Your Brain – Enhance logical thinking, pattern recognition, and quick decision-making.
-            ⚡ Fast-Paced Fun – A perfect mix of relaxation and challenge for casual and competitive players alike.
-            🎮 Easy to Learn, Hard to Master – Simple controls make it accessible, but mastering all patterns requires skill!
-            🏅 Challenge Yourself – Aim for high scores, perfect matches, and leaderboard dominance!
+            Accept the challenge, sharpen your logical thinking and have endless fun with Card Shift Match!
             """,
             preferredStyle: .alert
         )
