@@ -167,7 +167,7 @@ class PioneerGameGetStartedVC: UIViewController {
         particleView.presentScene(particleScene)
     }
     
-    // MARK: - Add Fire Text Effect for "Poker Pioneer Pro"
+    // MARK: - Add Fire Text Effect for "Poker Pattern Match"
     private func addFireTextEffect() {
         particleView = SKView(frame: viewMagic.bounds)
         particleView.backgroundColor = .clear
@@ -177,7 +177,7 @@ class PioneerGameGetStartedVC: UIViewController {
         particleScene = SKScene(size: viewMagic.bounds.size)
         particleScene.backgroundColor = .clear
         
-        let text = "POKER PIONEER PRO"
+        let text = "Poker Pattern Match"
         let fontName = "Chalkduster"
         let fontSize: CGFloat = 30
         let spacing: CGFloat = 5 // Adjust spacing between letters
