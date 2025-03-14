@@ -14,7 +14,7 @@ class PioneerGamePolicyController: UIViewController , WKScriptMessageHandler, WK
     @IBOutlet weak var indicatorView: UIActivityIndicatorView!
     @IBOutlet weak var webView: WKWebView!
     @objc var url: String?
-    let pioneerPrivacyDefaultUrl = "https://www.termsfeed.com/live/660ef6e6-d4f7-4ec2-8155-3444ae6570fd"
+    let pioneerPrivacyDefaultUrl = "https://www.termsfeed.com/live/8d082630-de1e-4d51-8701-1190072c6696"
     
     override func viewDidLoad() {
         super.viewDidLoad()
